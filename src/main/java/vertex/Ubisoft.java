@@ -1,7 +1,14 @@
 package vertex;
 
 public class Ubisoft extends Games {
-    public static void createGame(String[] args) {
+	@Override
+	public void setCategory(String category)
+	{
+		super.setCategory(category);
+	}
 
-    }
+	@Override
+	public String getCategory() {
+		return super.getCategory();
+	}
 }
